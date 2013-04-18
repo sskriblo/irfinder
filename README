@@ -8,4 +8,7 @@ Interfaces:
 IR Interface:
 IR beacon (transmitter) is LED lighting which transmites 10KHz pulses. 
 
-IR receiver is IR diode sensor with amplifier fasted at the top of servo motor. There is bandpass 10KHz active filter for noise cancelling. Its output handles to ADC at Arduino CPU. ADC sample frequency equal to 10.5KHz. Algorithm collects 20 or more samples and calculates the signal amplitude. This amplitude depends from IR sensore angle.
+IR receiver is IR diode sensor with amplifier fasted at the top of servo motor. 
+There is bandpass 10KHz active filter for noise cancelling. Its output handles to ADC at Arduino CPU. 
+ADC sample frequency equal to 10.5KHz. Algorithm collects 20 or more samples and calculates the 
+signal amplitude. This amplitude depends from IR sensore angle.
